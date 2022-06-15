@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1200px;
+    height: 75px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+.conainer{
+    width: 1200px;
+    height: 75px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    /* justify-content: center  ; */
+    /* align-items: center; */
+    display: flex;
+
+}
+.conainer{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column  ;
+    width: 1200px;
+    height: 800px;
+    margin-top: 39px;
+    margin: 0 auto;  
+    background-image: url('/img/IMAGE\ \(2\).png');
+    background-repeat: no-repeat;
+    /* border: 1px dotted red;  */
+}
+
+section .conainer h1{
+    font-size: 60px;
+    margin-top: 120px;
+    margin-left: 90px;
+    font-family: 'DM Serif Display', serif;
+
+}
+p{
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: #4d5053;
+    margin-top: 19px;
+    margin-left: 90px;
+
+    line-height: 33px;
+}
+.btn{
+    margin-left: 88px;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    display: flex;
+    background-color: #F2F2F2;
+}
+h2{
+    font-size: 12px;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.iii{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.blok{
+    display: flex;
+}
+.box{
+    width: 350px;
+    height: 200px;
+    margin-top: 80px ;
+    margin-left: 240px;
+    /* border: 1px solid; */
+}
+h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    cursor: pointer;
+}
+.sss{
+    display: flex;
+}
+h5{
+    font-size: 25px;
+}
+dd{
+    font-size: 22px;
+}
